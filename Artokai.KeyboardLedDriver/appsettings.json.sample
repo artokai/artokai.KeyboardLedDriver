@@ -1,0 +1,7 @@
+﻿{
+  "errorPolling": {
+    "enabled": true,
+    "interval": 10,
+    "url": "<url of the azure function>"
+  }
+}

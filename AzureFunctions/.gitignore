@@ -1,0 +1,5 @@
+# Ignore node_modules
+node_modules/
+
+# We don't want package-loc.json in GitHub
+package-lock.json

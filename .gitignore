@@ -1,0 +1,17 @@
+# Ignore build directories
+bin/
+obj/
+
+# Ignore editor configs
+.vs/
+.vscode/
+*.user
+
+# Ignore Logitech SDK dlls
+LogitechLedEnginesWrapper.dll
+LogitechGSDK.cs
+
+# Ignore configuration files
+appsettings.json
+PublishProfiles/
+*.pubxml
