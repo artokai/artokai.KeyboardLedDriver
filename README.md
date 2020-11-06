@@ -84,7 +84,7 @@ az storage account create \
 CONNSTRING=$(az storage account show-connection-string --name $STORAGE --resource-group=$RGNAME --query "connectionString" --output TSV)
 
 az functionapp create \
---name $APPNAME
+--name $APPNAME \
 --resource-group $RGNAME \
 --consumption-plan-location $LOCATION \
 --storage-account $STORAGE \
@@ -111,5 +111,4 @@ echo "${FUNCTION_URL}?code=${FUNCTION_CODE}"
 
 # Disclaimer
 
-This project was quickly hacked together for my own purposes only. 
-You may use it at your own wish.
+This project was quickly hacked together for my own purposes only. You may use it at your own risk.
