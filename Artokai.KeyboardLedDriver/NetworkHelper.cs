@@ -19,6 +19,8 @@ namespace Artokai.KeyboardLedDriver
                             return true;
                         if (networkInterface.Description.Contains("OpenVPN Connect"))
                             return true;
+                        if (networkInterface.Description.Contains("PANGP Virtual Ethernet Adapter"))
+                            return true;
                     }
                 }
             }
